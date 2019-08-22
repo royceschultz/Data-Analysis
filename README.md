@@ -2,15 +2,15 @@
 
 ## Abstract
 
-This project aims to model the frequency of earthquakes. The data is sourced from Kaggle. The report is written in a Jupyter Notebook using Pandas, Matplotlib, and Scipy to analyze the large dataset.
+This project aims to model the frequency of earthquakes. The data is sourced from Kaggle. The report is written in a Jupyter Notebook and analyzed using Pandas, Matplotlib, and Scipy.
 
-For the full report text, download the compiled pdf.
+For the full report text, download the compiled [pdf](../blob/master/Earthquake.pdf).
 
 ## Highlighted conclusions
 
 ### Statistical Analysis
 
-Earthquakes are random, but the frequency can be modeled using statistics.
+Earthquakes are random, but the frequency can be modeled using common statistical distributions.
 
 ![Data Frequency](/Present/BarChart.png)
 
