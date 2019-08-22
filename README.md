@@ -4,7 +4,7 @@
 
 This project aims to model the frequency of earthquakes. The data is sourced from Kaggle. The report is written in a Jupyter Notebook and analyzed using Pandas, Matplotlib, and Scipy.
 
-For the full report text, download the compiled [pdf](../blob/master/Earthquake.pdf).
+For the full report text, download the compiled [pdf](Earthquake.pdf).
 
 ## Highlighted conclusions
 
