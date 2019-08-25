@@ -16,6 +16,8 @@ Earthquakes are random, but the frequency can be modeled using common statistica
 
 This data is fit to an exponential distribution using SciPy
 
+#### Global Fit
+
 ![Exponential MDF](/Present/ExpMDF.png)
 
 ![Exponential CDF](/Present/ExpCDF.png)
@@ -30,6 +32,16 @@ Earthquakes occur along fault lines where tectonic plates meet.
 
 ![Map of Locations](/Present/TectonicPlates.png)
 
-After calculating distance by converting spherical coordinates (Latitude and Longitude) to cartesian, the frequency of earthquakes in different cities can be compared.
+After calculating distance by converting spherical coordinates (Latitude and Longitude) to a 3D space, the dataset can be filtered to local areas.
 
 ![City Comparison](/Present/CompareCity.png)
+
+#### The probability of earthquakes in Tokyo
+
+The same distribution fitting can be performed on the filtered, local dataset.
+
+![Tokyo Exponential CDF](/Present/TokyoExpCDF.png)
+
+![Tokyo Poisson Distribution](/Present/TokyoPoisson.png)
+
+Thus, the probability of at least 1 earthquake in Tokyo in a given year is 86%
