@@ -2,9 +2,24 @@
 
 ## Abstract
 
-This project aims to model the frequency of earthquakes. The data is sourced from Kaggle. The report is written in a Jupyter Notebook and analyzed using Pandas, Matplotlib, and Scipy.
+This project demonstrates how properties of common statistical distributions can be observed in nature.
 
 For the full report text, download the compiled [pdf](Earthquake.pdf).
+
+## About the data
+
+The dataset can be found [here (geo.mtu.edu)](http://www.geo.mtu.edu/UPSeis/magnitude.html)
+
+The filtered data contains 23,228 earthquakes with magnitude >5.5.
+
+| Magnitude | Effects | Estimated Number Each Year |
+|---|---|---|
+| <2.5 | Usually not felt, only recorded by seismograph. | 900,000 |
+| 2.5-5.4 | Often felt, but only minor damage | 30,000 |
+|  5.5-6.0 | Slight damage to buildings | 500 |
+|  6.1-6.9 | May cause lots of damage in populated areas | 100 |
+|  7.0-7.9 | Serious Damage | 20 |
+|  >8.0 | Can totally destroy communities | 1 every 5-10 years |
 
 ## Highlighted conclusions
 
@@ -43,5 +58,3 @@ The same distribution fitting can be performed on the filtered, local dataset.
 ![Tokyo Exponential CDF](/Present/TokyoExpCDF.png)
 
 ![Tokyo Poisson Distribution](/Present/TokyoPoisson.png)
-
-Thus, the probability of at least 1 earthquake in Tokyo in a given year is 86%
