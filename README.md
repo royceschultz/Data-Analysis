@@ -49,8 +49,6 @@ Earthquakes occur along fault lines where tectonic plates meet.
 
 After calculating distance by converting spherical coordinates (Latitude and Longitude) to a 3D space, the dataset can be filtered to local areas.
 
-![City Comparison](/Present/CompareCity.png)
-
 #### The probability of earthquakes in Tokyo
 
 The same distribution fitting can be performed on the filtered, local dataset.
@@ -58,3 +56,13 @@ The same distribution fitting can be performed on the filtered, local dataset.
 ![Tokyo Exponential CDF](/Present/TokyoExpCDF.png)
 
 ![Tokyo Poisson Distribution](/Present/TokyoPoisson.png)
+
+#### Infrastructure to protect buildings
+
+![dampers](damper.jpg)
+
+Dampers help dissipate energy
+
+![rollers](rollers.jpg)
+
+Rollers allow engineers to design predictable, flexible structures.
