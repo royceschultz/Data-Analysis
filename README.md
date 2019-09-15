@@ -49,6 +49,10 @@ Earthquakes occur along fault lines where tectonic plates meet.
 
 After calculating distance by converting spherical coordinates (Latitude and Longitude) to a 3D space, the dataset can be filtered to local areas.
 
+### Filtering Data near Tokyo
+
+![Map of Locations](/Present/TokyoLocal.png)
+
 #### The probability of earthquakes in Tokyo
 
 The same distribution fitting can be performed on the filtered, local dataset.
